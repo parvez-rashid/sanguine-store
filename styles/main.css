@@ -1,0 +1,30 @@
+:root {
+  --color-light-grey: #e2e8f0;
+}
+
+.product-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.1rem;
+  margin: 2rem 0;
+}
+
+.card-badge-new {
+  width: max-content;
+}
+
+.btn-outline {
+  color: var(--color-dark-blue);
+  background: none;
+  border: 1px solid var(--color-dark-blue);
+}
+
+.btn-outline:hover {
+  background: var(--color-light-grey);
+}
+
+.search-box {
+  height: 3.25rem;
+  width: 24rem;
+  border: 1px solid var(--color-light-grey);
+}
