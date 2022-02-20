@@ -1,0 +1,74 @@
+:root {
+  --primary-color-dark: #a32631;
+}
+
+.wishlist {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.btn-secondary {
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+.btn-secondary:hover {
+  background: var(--primary-color-dark);
+}
+
+.wishlist-items {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.img-responsive {
+  object-fit: cover;
+}
+
+.card {
+  height: 48rem;
+}
+
+.card-badge-new {
+  width: max-content;
+}
+
+.card-btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.qty {
+  padding: 5px;
+  margin: 0 3px;
+  width: 3rem;
+}
+
+.adjust-qty {
+  padding: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.qty-container {
+  display: flex;
+  align-items: center;
+}
+
+.list-inline {
+  justify-content: space-between;
+}
+
+.checkout-item-list {
+  height: 24rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.card-btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
