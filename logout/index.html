@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://deploy-preview-7--sad-haibt-42112c.netlify.app/styles/main.css"
+    />
+    <link rel="stylesheet" href="logout.css" />
+    <link
+      rel="preload"
+      href="https://kit.fontawesome.com/43943f2889.js"
+      as="script"
+    />
+    <title>Home | Sanguine Store</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="nav-logo">SANGUINE store</div>
+      <label for="search" class="text-size-sm">
+        <input
+          type="search"
+          class="search-box padding-md border-rad-md"
+          name="search"
+          id="search"
+          placeholder="What are you looking for?"
+        />
+        Search
+      </label>
+      <ul class="list-style-none list-inline">
+        <li>
+          <a class="options link btn btn-secondary" href="/logout/logout.html"
+            >Logout</a
+          >
+        </li>
+        <li>
+          <a class="options link" href="">wishlist</a>
+        </li>
+        <li>
+          <a class="options link" href="">cart</a>
+        </li>
+      </ul>
+    </nav>
+    <main class="documentation">
+      <aside class="sidebar padding-lg">
+        <div class="header-container">
+          <span class="h4 text-wt-bold">Filters</span>
+          <span class="text-size-sm"
+            ><a href="" class="link text-dec-none">Clear All</a></span
+          >
+        </div>
+        <div class="categories">
+          <p>Categories</p>
+          <ul class="category-list">
+            <li>
+              <label for="Alldevices" class="text-size-sm"
+                ><input type="checkbox" name="All devices" id="Alldevices" />All
+                devices <span>(99)</span></label
+              >
+            </li>
+            <li>
+              <label for="Phones" class="text-size-sm"
+                ><input type="checkbox" name="Phones" id="Phones" />Phones
+                <span>(99)</span></label
+              >
+            </li>
+            <li>
+              <label for="Tablets" class="text-size-sm"
+                ><input type="checkbox" name="Tablets" id="Tablets" />Tablets
+                <span>(99)</span></label
+              >
+            </li>
+            <li>
+              <label for="Laptops" class="text-size-sm"
+                ><input type="checkbox" name="Laptops" id="Laptops" />Laptops
+                <span>(99)</span></label
+              >
+            </li>
+            <li>
+              <label for="Pre-built PCs" class="text-size-sm"
+                ><input
+                  type="checkbox"
+                  name="Pre-built PCs"
+                  id="Pre-builtpcs"
+                />Pre-built PCs <span>(99)</span></label
+              >
+            </li>
+            <li>
+              <label for="Accessories" class="text-size-sm"
+                ><input
+                  type="checkbox"
+                  name="Accessories"
+                  id="Accessories"
+                />Accessories <span>(99)</span></label
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="ratings">
+          <p>Ratings</p>
+          <ul class="list-style-none">
+            <li>
+              <label for="" class="text-size-sm">
+                <input type="radio" name="rating" id="" />⭐⭐⭐⭐+
+              </label>
+            </li>
+            <li>
+              <label for="" class="text-size-sm">
+                <input type="radio" name="rating" id="" />⭐⭐⭐+
+              </label>
+            </li>
+            <li>
+              <label for="" class="text-size-sm">
+                <input type="radio" name="rating" id="" />⭐⭐+
+              </label>
+            </li>
+            <li>
+              <label for="" class="text-size-sm">
+                <input type="radio" name="rating" id="" />⭐+
+              </label>
+            </li>
+          </ul>
+        </div>
+        <div class="filter-by-price">
+          <p>Filter by price</p>
+          <div class="price-slider">
+            <span class="text-size-sm">1000</span>
+            <span class="text-size-sm">5000</span>
+            <span class="text-size-sm">10000</span>
+            <span class="text-size-sm">20000+</span>
+            <input type="range" name="price-slider" id="price-slider" />
+          </div>
+        </div>
+        <div class="sort">
+          <ul class="list-style-none">
+            <p>Sort by price</p>
+            <li>
+              <label for="" class="text-size-sm">
+                <input type="radio" name="sort" id="" />Low to high
+              </label>
+            </li>
+            <li>
+              <label for="" class="text-size-sm">
+                <input type="radio" name="sort" id="" />High to low
+              </label>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <section class="main product-display">
+        <div class="card card-vertical box-shadow border-rad-md">
+          <img
+            class="img-responsive border-rad-md"
+            src="/logout/images/phone.jpg"
+            alt="mountain-lake-northern-lights"
+          />
+          <h3>Samsung Galaxy S21 FE</h3>
+          <p>⭐⭐⭐⭐</p>
+          <div class="price-container list-inline">
+            <p class="text-wt-semibold">
+              45,999<span class="text-size-xs text-style-strike margin-md"
+                >51,999</span
+              >
+            </p>
+            <p class="text-wt-bold">12% OFF</p>
+          </div>
+          <span class="card-badge card-badge-new border-rad-md">NEW</span>
+          <div class="card-btn-wrapper">
+            <span
+              ><button class="btn btn-primary text-size-sm">
+                ADD TO CART
+              </button></span
+            >
+            <span>
+              <button class="btn btn-outline text-size-sm">
+                <i class="fa-regular fa-heart"></i>ADD TO WISHLIST
+              </button>
+            </span>
+          </div>
+        </div>
+        <div class="card card-vertical box-shadow border-rad-md">
+          <img
+            class="img-responsive border-rad-md"
+            src="/logout/images/phone.jpg"
+            alt="mountain-lake-northern-lights"
+          />
+          <h3>Samsung Galaxy S21 FE</h3>
+          <p>⭐⭐⭐⭐</p>
+          <div class="price-container list-inline">
+            <p class="text-wt-semibold">
+              45,999<span class="text-size-xs text-style-strike margin-md"
+                >51,999</span
+              >
+            </p>
+            <p class="text-wt-bold">12% OFF</p>
+          </div>
+          <span class="card-badge card-badge-new border-rad-md">NEW</span>
+          <div class="card-btn-wrapper">
+            <span
+              ><button class="btn btn-primary text-size-sm">
+                ADD TO CART
+              </button></span
+            >
+            <span>
+              <button class="btn btn-outline text-size-sm">
+                <i class="fa-regular fa-heart"></i>ADD TO WISHLIST
+              </button>
+            </span>
+          </div>
+        </div>
+        <div class="card card-vertical box-shadow border-rad-md">
+          <img
+            class="img-responsive border-rad-md"
+            src="/logout/images/phone.jpg"
+            alt="mountain-lake-northern-lights"
+          />
+          <h3>Samsung Galaxy S21 FE</h3>
+          <p>⭐⭐⭐⭐</p>
+          <div class="price-container list-inline">
+            <p class="text-wt-semibold">
+              45,999<span class="text-size-xs text-style-strike margin-md"
+                >51,999</span
+              >
+            </p>
+            <p class="text-wt-bold">12% OFF</p>
+          </div>
+          <span class="card-badge card-badge-new border-rad-md">NEW</span>
+          <div class="card-btn-wrapper">
+            <span
+              ><button class="btn btn-primary text-size-sm">
+                ADD TO CART
+              </button></span
+            >
+            <span>
+              <button class="btn btn-outline text-size-sm">
+                <i class="fa-regular fa-heart"></i>ADD TO WISHLIST
+              </button>
+            </span>
+          </div>
+        </div>
+        <div class="card card-vertical box-shadow border-rad-md">
+          <img
+            class="img-responsive border-rad-md"
+            src="/logout/images/phone.jpg"
+            alt="mountain-lake-northern-lights"
+          />
+          <h3>Samsung Galaxy S21 FE</h3>
+          <p>⭐⭐⭐⭐</p>
+          <div class="price-container list-inline">
+            <p class="text-wt-semibold">
+              45,999<span class="text-size-xs text-style-strike margin-md"
+                >51,999</span
+              >
+            </p>
+            <p class="text-wt-bold">12% OFF</p>
+          </div>
+          <span class="card-badge card-badge-new border-rad-md">NEW</span>
+          <div class="card-btn-wrapper">
+            <span
+              ><button class="btn btn-primary text-size-sm">
+                ADD TO CART
+              </button></span
+            >
+            <span>
+              <button class="btn btn-outline text-size-sm">
+                <i class="fa-regular fa-heart"></i>ADD TO WISHLIST
+              </button>
+            </span>
+          </div>
+        </div>
+        <div class="card card-vertical box-shadow border-rad-md">
+          <img
+            class="img-responsive border-rad-md"
+            src="/logout/images/phone.jpg"
+            alt="mountain-lake-northern-lights"
+          />
+          <h3>Samsung Galaxy S21 FE</h3>
+          <p>⭐⭐⭐⭐</p>
+          <div class="price-container list-inline">
+            <p class="text-wt-semibold">
+              45,999<span class="text-size-xs text-style-strike margin-md"
+                >51,999</span
+              >
+            </p>
+            <p class="text-wt-bold">12% OFF</p>
+          </div>
+          <span class="card-badge card-badge-new border-rad-md">NEW</span>
+          <div class="card-btn-wrapper">
+            <span
+              ><button class="btn btn-primary text-size-sm">
+                ADD TO CART
+              </button></span
+            >
+            <span>
+              <button class="btn btn-outline text-size-sm">
+                <i class="fa-regular fa-heart"></i>ADD TO WISHLIST
+              </button>
+            </span>
+          </div>
+        </div>
+        <div class="card card-vertical box-shadow border-rad-md">
+          <img
+            class="img-responsive border-rad-md"
+            src="/logout/images/phone.jpg"
+            alt="mountain-lake-northern-lights"
+          />
+          <h3>Samsung Galaxy S21 FE</h3>
+          <p>⭐⭐⭐⭐</p>
+          <div class="price-container list-inline">
+            <p class="text-wt-semibold">
+              45,999<span class="text-size-xs text-style-strike margin-md"
+                >51,999</span
+              >
+            </p>
+            <p class="text-wt-bold">12% OFF</p>
+          </div>
+          <span class="card-badge card-badge-new border-rad-md">NEW</span>
+          <div class="card-btn-wrapper">
+            <span
+              ><button class="btn btn-primary text-size-sm">
+                ADD TO CART
+              </button></span
+            >
+            <span>
+              <button class="btn btn-outline text-size-sm">
+                <i class="fa-regular fa-heart"></i>ADD TO WISHLIST
+              </button>
+            </span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/43943f2889.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
