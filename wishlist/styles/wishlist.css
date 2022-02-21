@@ -2,6 +2,11 @@
   --primary-color-dark: #a32631;
 }
 
+.h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
 .wishlist {
   display: grid;
   grid-template-columns: 3fr 1fr;
