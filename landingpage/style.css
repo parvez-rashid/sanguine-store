@@ -1,6 +1,6 @@
 .hero-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/images/hero.jpg");
+    url("/landingpage/images/hero.jpg");
 
   height: 50rem;
 
@@ -37,5 +37,5 @@
 .search-box {
   height: 3.25rem;
   width: 24rem;
-  border: 1px solid var(--color-light-grey);
+  border: 1px solid var(--primary-color);
 }
