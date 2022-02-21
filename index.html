@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://sad-haibt-42112c.netlify.app/styles/main.css"
+    />
+    <link rel="stylesheet" href="/styles/cart.css" />
+    <title>Your cart | Sanguine Store</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="nav-logo">SANGUINE store</div>
+      <label for="search" class="text-size-sm">
+        <input
+          type="search"
+          class="search-box padding-md border-rad-md"
+          name="search"
+          id="search"
+          placeholder="What are you looking for?"
+        />
+        <a href="" class="options text-dec-none">Search</a>
+      </label>
+      <ul class="list-style-none list-inline">
+        <li>
+          <a class="options link" href="">profile</a>
+        </li>
+        <li>
+          <a class="options link" href="">wishlist</a>
+        </li>
+        <li>
+          <a class="options link link-active" href="">cart</a>
+        </li>
+      </ul>
+    </nav>
+    <main class="cart">
+      <section class="cart-items">
+        <div class="card card-vertical box-shadow border-rad-md">
+          <img
+            class="img-responsive border-rad-md"
+            src="/images/phone.jpg"
+            alt="A smartphone"
+          />
+          <h3>Samsung Galaxy S21 FE</h3>
+          <p>⭐⭐⭐⭐<span class="text-size-sm">(99)</span></p>
+          <div class="price-container list-inline">
+            <p class="text-wt-semibold">
+              45,999<span class="text-size-xs text-style-strike margin-md"
+                >51,999</span
+              >
+            </p>
+            <p class="text-wt-bold">12% OFF</p>
+          </div>
+          <div class="card-btn-wrapper">
+            <span>
+              <button class="btn btn-primary text-size-sm">
+                MOVE TO WISHLIST
+              </button>
+            </span>
+            <div class="qty-container">
+              <span class="adjust-qty text-size-xl">-</span>
+              <input class="qty" type="text" />
+              <span class="adjust-qty text-size-xl">+</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-vertical box-shadow border-rad-md">
+          <img
+            class="img-responsive border-rad-md"
+            src="/images/laptop.jpg"
+            alt="A smartphone"
+          />
+          <h3>MacBook Pro 2021</h3>
+          <p>⭐⭐⭐⭐<span class="text-size-sm">(99)</span></p>
+          <div class="price-container list-inline">
+            <p class="text-wt-semibold">
+              1,90,990<span class="text-size-xs text-style-strike margin-md"
+                >2,20,990</span
+              >
+            </p>
+            <p class="text-wt-bold">12% OFF</p>
+          </div>
+          <div class="card-btn-wrapper">
+            <span>
+              <button class="btn btn-primary text-size-sm">
+                MOVE TO WISHLIST
+              </button>
+            </span>
+            <div class="qty-container">
+              <span class="adjust-qty text-size-xl">-</span>
+              <input class="qty" type="text" />
+              <span class="adjust-qty text-size-xl">+</span>
+            </div>
+          </div>
+        </div>
+        <div class="vertical-rule"></div>
+      </section>
+
+      <section class="checkout">
+        <div class="card card-vertical box-shadow border-rad-md">
+          <h3>YOUR SHOPPING CART</h3>
+          <hr class="hr" />
+          <ul class="list-style-none checkout-item-list">
+            <ul class="list-inline">
+              <li>Galaxy S21 FE</li>
+              <li>45,999</li>
+            </ul>
+            <ul class="list-inline">
+              <li>MacBook Pro 2021</li>
+              <li>1,90,990</li>
+            </ul>
+            <ul class="list-inline">
+              <li>Delivery</li>
+              <li class="code">FREE</li>
+            </ul>
+            <hr class="hr" />
+            <ul class="list-inline text-wt-bold">
+              <li>TOTAL</li>
+              <li class="text-wt-bold">Rs. 2,36,989</li>
+            </ul>
+          </ul>
+          <div class="card-btn-wrapper">
+            <span>
+              <button class="btn btn-primary text-size-sm">CHECKOUT</button>
+            </span>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
