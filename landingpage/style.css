@@ -1,3 +1,7 @@
+:root {
+  --color-black: #000000;
+}
+
 .hero-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/landingpage/images/hero.jpg");
@@ -8,6 +12,16 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.h2 {
+  color: var(--primary-color);
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.btn-link {
+  color: var(--color-black);
 }
 
 .hero-txt {
