@@ -3,3 +3,12 @@
   display: flex;
   justify-content: center;
 }
+
+.sign-up-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign-up-link {
+  color: var(--primary-color);
+}
