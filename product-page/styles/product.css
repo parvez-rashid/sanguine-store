@@ -1,10 +1,43 @@
-:root {
-  --color-light-grey: #e2e8f0;
+@import "/logout/logout.css";
+
+.sidebar {
+  color: var(--color-light-grey);
+  padding: 1.6rem;
+}
+
+.documentation {
+  grid-template-columns: 25rem auto;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  border: 0;
+  margin: 8px 8px;
+}
+
+input[type="range"] {
+  width: 16rem;
+  margin: 8px 8px;
+}
+
+.categories > .category-list,
+.ratings > .list-style-none {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 8px 0;
 }
 
 .product-display {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.1rem;
   margin: 2rem 0;
 }
@@ -26,7 +59,7 @@
 .search-box {
   height: 3.25rem;
   width: 24rem;
-  border: 1px solid var(--color-light-grey);
+  border: 1px solid var(--primary-color);
 }
 
 .sign-up-link {
