@@ -58,3 +58,7 @@
 .vertical-rule {
   border-left: 1px solid var(--grey);
 }
+
+.sign-up-link {
+  color: var(--primary-color);
+}
