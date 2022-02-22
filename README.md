@@ -6,6 +6,8 @@ Sanguine Store is a modern, fully-featured e-commerce site that specialises in e
 
 > A one stop-shop for all gadget-heads!
 
+![image](https://user-images.githubusercontent.com/84724590/155180748-c9880146-0a2d-45a8-b6b5-e453020b78b8.png)
+
 ## Features
 
 - Browse by categories
