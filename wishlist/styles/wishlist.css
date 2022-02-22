@@ -1,12 +1,12 @@
 @import "/logout/logout.css";
 
-:root {
-  --primary-color-dark: #a32631;
-}
-
 .h1 {
   text-align: center;
   margin-top: 2rem;
+}
+
+.search-box {
+  border: 1px solid var(--primary-color);
 }
 
 .wishlist {
@@ -14,13 +14,8 @@
   grid-template-columns: 3fr 1fr;
 }
 
-.btn-secondary {
-  background: var(--primary-color);
-  color: var(--white);
-}
-
-.btn-secondary:hover {
-  background: var(--primary-color-dark);
+.text-dec-none {
+  color: var(--light-grey);
 }
 
 .wishlist-items {

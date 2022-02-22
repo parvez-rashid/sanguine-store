@@ -27,3 +27,7 @@
   align-items: center;
   background: var(--color-light-grey);
 }
+
+.text-dec-none {
+  color: var(--light-grey);
+}

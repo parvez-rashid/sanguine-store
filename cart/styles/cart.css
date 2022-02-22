@@ -1,3 +1,5 @@
+@import "/logout/logout.css";
+
 .cart {
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -27,9 +29,9 @@
 }
 
 .qty {
-  padding: 5px;
+  padding: 2px;
   margin: 0 3px;
-  width: 3rem;
+  width: 5rem;
 }
 
 .adjust-qty {
@@ -61,4 +63,8 @@
 
 .sign-up-link {
   color: var(--primary-color);
+}
+
+.text-dec-none {
+  color: var(--light-grey);
 }

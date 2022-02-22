@@ -1,4 +1,5 @@
 :root {
+  --primary-color-light: #d65964;
   --color-black: #000000;
 }
 
@@ -24,8 +25,12 @@
   color: var(--color-black);
 }
 
+.btn-link:hover {
+  color: var(--primary-color);
+}
+
 .text-dec-none {
-  color: var(--grey);
+  color: var(--light-grey);
 }
 
 .hero-txt {
@@ -56,4 +61,8 @@
   height: 3.25rem;
   width: 24rem;
   border: 1px solid var(--primary-color);
+}
+
+.footer {
+  background-color: var(--primary-color-light);
 }
