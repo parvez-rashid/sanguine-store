@@ -17,7 +17,11 @@
   </head>
   <body>
     <nav class="navigation">
-      <div class="nav-logo">SANGUINE store</div>
+      <div class="nav-logo">
+        <a href="/landingpage/index.html" class="text-dec-none sign-up-link"
+          >SANGUINE store</a
+        >
+      </div>
       <label for="search" class="text-size-sm">
         <input
           type="search"
@@ -30,7 +34,7 @@
       </label>
       <ul class="list-style-none list-inline">
         <li>
-          <a class="options link" href="">profile</a>
+          <a class="options link link-active" href="">login/signup</a>
         </li>
         <li>
           <a class="options link" href="">wishlist</a>
@@ -42,59 +46,66 @@
     </nav>
     <section class="signup-form">
       <div class="input-container">
-        <h3 class="h3 text-wt-bold">Sign Up</h3>
-        <label for="input-text">E-mail</label>
-        <input
-          type="email"
-          name="input-text"
-          class="txt-box"
-          id="input-text"
-          placeholder="E-mail"
-          required
-        />
-        <label for="input-text">First name</label>
-        <input
-          type="email"
-          name="input-text"
-          class="txt-box"
-          id="input-text"
-          placeholder="First name"
-          required
-        />
+        <div class="card card-vertical border-rad-md box-shadow margin-lg">
+          <h3 class="h3 text-wt-bold">Sign Up</h3>
+          <label for="input-text">E-mail</label>
+          <input
+            type="email"
+            name="input-text"
+            class="txt-box"
+            id="input-text"
+            placeholder="E-mail"
+            required
+          />
+          <label for="input-text">First name</label>
+          <input
+            type="email"
+            name="input-text"
+            class="txt-box"
+            id="input-text"
+            placeholder="First name"
+            required
+          />
 
-        <label for="input-text">Last name</label>
-        <input
-          type="email"
-          name="input-text"
-          class="txt-box"
-          id="input-text"
-          placeholder="Last name"
-          required
-        />
+          <label for="input-text">Last name</label>
+          <input
+            type="email"
+            name="input-text"
+            class="txt-box"
+            id="input-text"
+            placeholder="Last name"
+            required
+          />
 
-        <label for="input-pwd">Password</label>
-        <input
-          type="password"
-          name="input-pwd"
-          class="txt-box error"
-          id="input-pwd"
-          placeholder="**********"
-        />
+          <label for="input-pwd">Password</label>
+          <input
+            type="password"
+            name="input-pwd"
+            class="txt-box error"
+            id="input-pwd"
+            placeholder="**********"
+          />
 
-        <label for="input-confirm-pwd">Confirm password</label>
-        <input
-          type="password"
-          name="input-confirm-pwd"
-          class="pwd-box"
-          id="input-confirm-pwd"
-          placeholder="**********"
-        />
+          <label for="input-confirm-pwd">Confirm password</label>
+          <input
+            type="password"
+            name="input-confirm-pwd"
+            class="pwd-box"
+            id="input-confirm-pwd"
+            placeholder="**********"
+          />
 
-        <button class="btn btn-primary" type="submit">Sign Up</button>
-        <span class="text-size-sm"
-          >Already have an account?
-          <a class="link text-style-underline" href="">Login</a></span
-        >
+          <button class="btn btn-primary" type="submit">Sign Up</button>
+          <hr class="hr" />
+          <div class="sign-up-container">
+            <span class="text-size-sm">Already have an account?</span>
+            <a
+              class="link sign-up-link text-size-sm text-style-underline"
+              href="/login-page/index.html"
+              >Login</a
+            >
+          </div>
+        </div>
       </div>
     </section>
   </body>
