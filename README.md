@@ -26,4 +26,4 @@ Checkout the site [here][sanguine-store].
 This e-commerce site was built using [Sanguine][sanguine-ui], a component library, which is also built by me.
 
 [sanguine-store]: https://inspiring-shockley-7171f7.netlify.app
-[sanguine-ui]: https://microsoft.com
+[sanguine-ui]: https://deploy-preview-7--sad-haibt-42112c.netlify.app
