@@ -18,26 +18,31 @@
   </head>
   <body>
     <nav class="navigation">
-      <div class="nav-logo">SANGUINE store</div>
+      <div class="nav-logo">
+        <a href="/index.html" class="text-dec-none sign-up-link"
+          >SANGUINE store</a
+        >
+      </div>
       <label for="search" class="text-size-sm">
         <input
           type="search"
           class="search-box padding-md border-rad-md"
           name="search"
-          id="search"
           placeholder="What are you looking for?"
         />
         Search
       </label>
       <ul class="list-style-none list-inline">
         <li>
-          <a class="options link" href="">profile</a>
+          <a class="options link btn btn-secondary" href="/logout/logout.html"
+            >Logout</a
+          >
         </li>
         <li>
-          <a class="options link link-active" href="">wishlist</a>
+          <a class="options link" href="/wishlist/index.html">wishlist</a>
         </li>
         <li>
-          <a class="options link" href="">cart</a>
+          <a class="options link" href="/cart/index.html">cart</a>
         </li>
       </ul>
     </nav>
@@ -45,47 +50,50 @@
       <aside class="sidebar padding-lg">
         <div class="header-container">
           <span class="h4 text-wt-bold">Filters</span>
-          <span class="text-size-sm"
-            ><a href="" class="link text-dec-none">Clear All</a></span
-          >
+          <button type="reset" class="btn btn-link text-dec-none">
+            Clear All
+          </button>
         </div>
         <div class="categories">
           <p>Categories</p>
-          <ul class="category-list">
+          <ul class="category-list list-style-none">
             <li>
-              <label for="Alldevices" class="text-size-sm"
-                ><input type="checkbox" name="All devices" id="" />All devices
+              <label class="text-size-sm"
+                ><input type="checkbox" name="All devices" />All devices
                 <span>(99)</span></label
               >
             </li>
             <li>
-              <label for="Phones" class="text-size-sm"
-                ><input type="checkbox" name="Phones" id="" />Phones
+              <label class="text-size-sm"
+                ><input type="checkbox" name="Phones" />Phones
                 <span>(99)</span></label
               >
             </li>
             <li>
-              <label for="Tablets" class="text-size-sm"
-                ><input type="checkbox" name="Tablets" id="" />Tablets
+              <label class="text-size-sm"
+                ><input type="checkbox" name="Tablets" />Tablets
                 <span>(99)</span></label
               >
             </li>
             <li>
-              <label for="Laptops" class="text-size-sm"
-                ><input type="checkbox" name="Laptops" id="" />Laptops
+              <label class="text-size-sm"
+                ><input type="checkbox" name="Laptops" />Laptops
                 <span>(99)</span></label
               >
             </li>
             <li>
-              <label for="Pre-built PCs" class="text-size-sm"
-                ><input type="checkbox" name="Pre-built PCs" id="" />Pre-built
-                PCs <span>(99)</span></label
+              <label class="text-size-sm"
+                ><input type="checkbox" name="Pre-built PCs" />Pre-built PCs
+                <span>(99)</span></label
               >
             </li>
             <li>
-              <label for="Accessories" class="text-size-sm"
-                ><input type="checkbox" name="Accessories" id="" />Accessories
-                <span>(99)</span></label
+              <label class="text-size-sm"
+                ><input
+                  type="checkbox"
+                  name="Accessories"
+                  id="Accessories"
+                />Accessories <span>(99)</span></label
               >
             </li>
           </ul>
@@ -94,48 +102,48 @@
           <p>Ratings</p>
           <ul class="list-style-none">
             <li>
-              <label for="" class="text-size-sm">
-                <input type="radio" name="rating" id="rating" />⭐⭐⭐⭐+
+              <label class="text-size-sm">
+                <input type="radio" name="rating" />⭐⭐⭐⭐+
               </label>
             </li>
             <li>
-              <label for="" class="text-size-sm">
-                <input type="radio" name="rating" id="rating" />⭐⭐⭐+
+              <label class="text-size-sm">
+                <input type="radio" name="rating" />⭐⭐⭐+
               </label>
             </li>
             <li>
-              <label for="" class="text-size-sm">
-                <input type="radio" name="rating" id="rating" />⭐⭐+
+              <label class="text-size-sm">
+                <input type="radio" name="rating" />⭐⭐+
               </label>
             </li>
             <li>
-              <label for="" class="text-size-sm">
-                <input type="radio" name="rating" id="rating" />⭐+
+              <label class="text-size-sm">
+                <input type="radio" name="rating" />⭐+
               </label>
             </li>
           </ul>
         </div>
         <div class="filter-by-price">
-          <p>Filter by price</p>
+          <p>Filter by price (Rs.)</p>
           <div class="price-slider">
             <span class="text-size-sm">1000</span>
             <span class="text-size-sm">5000</span>
             <span class="text-size-sm">10000</span>
             <span class="text-size-sm">20000+</span>
-            <input type="range" name="price-slider" id="" />
+            <input type="range" name="price-slider" />
           </div>
         </div>
         <div class="sort">
           <ul class="list-style-none">
             <p>Sort by price</p>
             <li>
-              <label for="sort" class="text-size-sm">
-                <input type="radio" name="sort" id="" />Low to high
+              <label class="text-size-sm">
+                <input type="radio" name="sort" />Low to high
               </label>
             </li>
             <li>
-              <label for="sort" class="text-size-sm">
-                <input type="radio" name="sort" id="" />High to low
+              <label class="text-size-sm">
+                <input type="radio" name="sort" />High to low
               </label>
             </li>
           </ul>
@@ -146,7 +154,7 @@
           <img
             class="img-responsive border-rad-md"
             src="/product-page/images/phone.jpg"
-            alt="mountain-lake-northern-lights"
+            alt="phone"
           />
           <h3>Samsung Galaxy S21 FE</h3>
           <p>⭐⭐⭐⭐</p>
@@ -176,7 +184,7 @@
           <img
             class="img-responsive border-rad-md"
             src="/product-page/images/phone.jpg"
-            alt="mountain-lake-northern-lights"
+            alt="phone"
           />
           <h3>Samsung Galaxy S21 FE</h3>
           <p>⭐⭐⭐⭐</p>
@@ -206,7 +214,7 @@
           <img
             class="img-responsive border-rad-md"
             src="/product-page/images/phone.jpg"
-            alt="mountain-lake-northern-lights"
+            alt="phone"
           />
           <h3>Samsung Galaxy S21 FE</h3>
           <p>⭐⭐⭐⭐</p>
@@ -236,7 +244,7 @@
           <img
             class="img-responsive border-rad-md"
             src="/product-page/images/phone.jpg"
-            alt="mountain-lake-northern-lights"
+            alt="phone"
           />
           <h3>Samsung Galaxy S21 FE</h3>
           <p>⭐⭐⭐⭐</p>
@@ -266,7 +274,7 @@
           <img
             class="img-responsive border-rad-md"
             src="/product-page/images/phone.jpg"
-            alt="mountain-lake-northern-lights"
+            alt="phone"
           />
           <h3>Samsung Galaxy S21 FE</h3>
           <p>⭐⭐⭐⭐</p>
@@ -296,7 +304,7 @@
           <img
             class="img-responsive border-rad-md"
             src="/product-page/images/phone.jpg"
-            alt="mountain-lake-northern-lights"
+            alt="phone"
           />
           <h3>Samsung Galaxy S21 FE</h3>
           <p>⭐⭐⭐⭐</p>
