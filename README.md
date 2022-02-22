@@ -10,6 +10,8 @@ Sanguine Store is a modern, fully-featured e-commerce site that specialises in e
 
 ## Features
 
+Sanguine Store has many modern features for convenience, which are listed below:
+
 - Browse by categories
 - Filters
   - Filter by category
